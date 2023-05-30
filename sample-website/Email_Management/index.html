@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Management</title>
+</head>
+<body>
+    <div class="continer">
+        <div class="row">
+            <section class="navbarBox">
+                <nav class="stick">
+                    <div class="continer">
+                        <div class="row">
+                            <div class="mainSection">
+                                <div class="TitleBox">
+                                    <p>Email</p>
+                                </div>
+                                <div class="navBox">
+                                    <ul class="navlist">
+                                        <li class="navItem"><a href="#">Compose</a></li>
+                                        <li class="navItem"><a href="#">Inbox</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <section class="emailComposeFrom">
+                <div class="continer">
+                    <div class="row">
+                        <div class="composeBox">
+                            <div class="composeForm">
+                                <form>
+                                    <div class="composeContiner">
+                                        <div class="mailIDBox box">
+                                            <div class="lableBox">
+                                                <label for="mail">From</label>
+                                            </div>
+                                            <div class="inputBox">
+                                                <input type="email" name="Email" id="mail" placeholder="Enter the From email Id">
+                                            </div>
+                                        </div>
+                                        <div class="tomailBox box">
+                                            <div class="lableBox">
+                                                <label for="toemail">To</label>
+                                            </div>
+                                            <div class="inputBox">
+                                                <input type="email" name="tomail" id="tomail" placeholder="Enter the To email Id">
+                                            </div>
+                                        </div>
+                                        <div class="CcBox box">
+                                            <div class="lableBox">
+                                                <label for="cc">Cc</label>
+                                            </div>
+                                            <div class="inputBox">
+                                                <input type="email" name="ccbox" id="cc">
+                                            </div>
+                                        </div>
+                                        <div class="BccBox box">
+                                            <div class="lableBox">
+                                                <label for="bcc">Bcc</label>
+                                            </div>
+                                            <div class="inputBox">
+                                                <input type="email" name="bccBox" id="bcc">
+                                            </div>
+                                        </div>
+                                        <div class="subjecBox box">
+                                            <div class="lableBox">
+                                                <label for="subject">Subject</label>
+                                            </div>
+                                            
+                                            <div class="inputBox">
+                                                <input type="text" name="subject" id="subject">
+                                            </div>
+                                        </div>
+                                        <div class="bodyEmailBox box">
+                                            <div class="inputBox">
+                                                <textarea name="bodyEmailBox" id="bodyEmailBox" cols="54" rows="10" placeholder="Enter the body of the Content"></textarea>      
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="actionButton">
+                                        <button type="button">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
